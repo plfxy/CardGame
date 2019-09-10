@@ -5,8 +5,8 @@ using UnityEngine.UI;
 
 public class Test : MonoBehaviour {
 
-	// Use this for initialization
-	/*void Start () {
+    // Use this for initialization
+    /*void Start () {
 		CardPile cp = new CardPile();
 		CardDrawer cd = new CardDrawer(new OrderlyCardGetter(),new CardReturner(true,true));
 		List<int> l=new List<int>();
@@ -24,4 +24,11 @@ public class Test : MonoBehaviour {
 	void Update () {
 		
 	}*/
+
+    void Start()
+    {
+        DataManager dataManager = DataManager.GetInstance();
+        ADataSheet<CardDataRow> cardSheet = dataManager.LoadDataSheet<CardDataRow>("Card");
+        Debug.LogError(cardSheet.GetDataRowById(1).Num);
+    }
 }
