@@ -61,29 +61,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\BattleActionProcessor.cs" />
-    <Compile Include="Assets\Scripts\CardRelated\Card.cs" />
-    <Compile Include="Assets\Scripts\CardRelated\Card_Battle.cs" />
-    <Compile Include="Assets\Scripts\CardRelated\CardDrawer.cs" />
-    <Compile Include="Assets\Scripts\CardRelated\CardGetter.cs" />
-    <Compile Include="Assets\Scripts\CardRelated\CardInformation_Base.cs" />
-    <Compile Include="Assets\Scripts\CardRelated\CardInformation_Battle.cs" />
-    <Compile Include="Assets\Scripts\CardRelated\CardPile.cs" />
-    <Compile Include="Assets\Scripts\CardRelated\CardReturner.cs" />
-    <Compile Include="Assets\Scripts\CardRelated\OrderlyCardGetter.cs" />
-    <Compile Include="Assets\Scripts\DataManagement\ADataSheet.cs" />
-    <Compile Include="Assets\Scripts\DataManagement\DataHolder.cs" />
-    <Compile Include="Assets\Scripts\DataManagement\DataManager.cs" />
-    <Compile Include="Assets\Scripts\DataManagement\DataRowProcessor\ADataRow.cs" />
-    <Compile Include="Assets\Scripts\DataManagement\DataRowProcessor\CardDataRow.cs" />
-    <Compile Include="Assets\Scripts\RandomNumberCreator.cs" />
-    <Compile Include="Assets\Scripts\Test.cs" />
-    <Compile Include="Assets\WindyFramework\Base\FrameworkComponent.cs" />
-    <Compile Include="Assets\WindyFramework\Base\FrameworkEntry.cs" />
-    <Compile Include="Assets\WindyFramework\Data\ADataSheet.cs" />
-    <Compile Include="Assets\WindyFramework\Data\DataHolder.cs" />
-    <Compile Include="Assets\WindyFramework\Data\DataManager.cs" />
-    <Compile Include="Assets\WindyFramework\WindyFrameWorkConfigs.cs" />
+    <Compile Include="Assets\WindyFramework\Builtin\Base\FrameworkEntry.cs" />
+    <Compile Include="Assets\WindyFramework\Builtin\Base\FrameworkModule.cs" />
+    <Compile Include="Assets\WindyFramework\Builtin\Data\ADataRow.cs" />
+    <Compile Include="Assets\WindyFramework\Builtin\Data\ADataSheet.cs" />
+    <Compile Include="Assets\WindyFramework\Builtin\Data\DataHolder.cs" />
+    <Compile Include="Assets\WindyFramework\Builtin\Data\DataManager.cs" />
+    <Compile Include="Assets\WindyFramework\Builtin\Event\EventArgs.cs" />
+    <Compile Include="Assets\WindyFramework\Builtin\Event\EventManager.cs" />
+    <Compile Include="Assets\WindyFramework\Builtin\WindyFrameWorkConfigs.cs" />
+    <Compile Include="Assets\WindyFramework\Custom\Base\GameEntry.cs" />
+    <Compile Include="Assets\WindyFramework\Custom\Data\DataRowProcessor\CardDataRow.cs" />
+    <Compile Include="Assets\WindyFramework\Custom\Event\Events.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/plfxy_pl/Documents/Project/CardGame/CardGame/CardGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

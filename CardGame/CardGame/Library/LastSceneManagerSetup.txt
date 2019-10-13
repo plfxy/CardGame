@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/_Scene/GameFramework.unity
+- path: Assets/WindyFramework/WindyFramework.unity
   isLoaded: 1
   isActive: 1
